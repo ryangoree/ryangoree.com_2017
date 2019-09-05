@@ -1,0 +1,21 @@
+RewriteEngine on
+
+RewriteRule ^hire/?$ employment-portfolio.php [NC]
+
+RewriteCond %{HTTP_REFERER} !^http://pagelinks.ryangoree.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://pagelinks.ryangoree.com$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://ryangoree.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://ryangoree.com$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.pagelinks.ryangoree.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.pagelinks.ryangoree.com$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.ryangoree.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.ryangoree.com$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://pagelinks.ryangoree.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://pagelinks.ryangoree.com$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://ryangoree.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://ryangoree.com$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.pagelinks.ryangoree.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.pagelinks.ryangoree.com$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.ryangoree.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^https://www.ryangoree.com$      [NC]
+RewriteRule .*\.(jpg|jpeg|gif|png|bmp|svg)$ - [F,NC]

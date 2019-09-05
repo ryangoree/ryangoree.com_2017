@@ -1,0 +1,99 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Ryan Goree | Designer &amp; Developer</title>
+<meta name="description" content="Hi, I’m a web designer &amp; web developer focused on creating digital experiences that make things easy and look good doing it.">
+<link rel="shortcut icon" href="favicon.ico"/>
+<link rel="stylesheet" href="css/portfolio-2017.css"></head>
+
+<body>
+<div class="background"></div>
+<nav class="mobile-nav">
+    <a href="javascript:;" class="mobile-nav-close-icon">
+        <span>Close Menu</span>
+    </a>
+    <ul>
+        <li><a href="/">About</a></li>
+        <li><a href="/work.html">Work</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<header class="mobile-header">
+    <a class="logo" href="/">
+        <img src="img/ninja-ryan-goree-light.svg">
+    </a>
+    <a href="javascript:;" class="mobile-nav-icon">
+        <span>Menu</span>
+    </a>
+</header>
+
+<div class="content">
+
+    <header class="main-header">
+        <a class="logo" href="/">
+            <img src="img/ninja-ryan-goree.svg">
+        </a>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="/">About</a></li>
+                <li><a href="/work.html">Work</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="contact" class="page">
+        <h1>Contact</h1>
+        <p>I'm based out of San Antonio, TX and work freelance during the evenings and weekends.</p>
+        <div class="contact-cols">
+            <div class="col">
+                <h3>Email</h3>
+                <a href="mailto:ryan@ryangoree.com">ryan@ryangoree.com</a>
+            </div>
+            <div class="col">
+                <h3>Phone</h3>
+                <a href="tel:2108345065">+1 (210) 834-5065</a>
+            </div>
+            <div class="col">
+                <a id="linked-in-logo" href="https://www.linkedin.com/in/ryangoree/"><svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><defs><style>.cls-1{fill:#a4acbb;}</style></defs><title>linkedin-logo</title><path class="cls-1" d="M27.78,0H2.21A2.19,2.19,0,0,0,0,2.16V27.84A2.19,2.19,0,0,0,2.21,30H27.78A2.19,2.19,0,0,0,30,27.84V2.16A2.19,2.19,0,0,0,27.78,0ZM8.9,25.56H4.45V11.25H8.9ZM6.67,9.29A2.58,2.58,0,1,1,9.25,6.71,2.58,2.58,0,0,1,6.67,9.29ZM25.57,25.56H21.12v-7c0-1.66,0-3.8-2.31-3.8s-2.67,1.81-2.67,3.68v7.08H11.69V11.25H16v2H16a4.67,4.67,0,0,1,4.21-2.31c4.51,0,5.34,3,5.34,6.82Z"/></svg></path></svg></a>
+            </div>
+        </div>
+        <h2>Request a Quick Chat</h2>
+        <form id="contact-form" action="http://www.ryangoree.com/cgi-sys/formmail.pl" method="post" name="hgmailer">
+            <div class="spinner"></div>
+            <div class="confirmation">
+                <h3>Thank You</h3>
+                <p>I'll be in touch soon.<p>
+            </div>
+            <input type="hidden" name="recipient" value="ryan@ryangoree.com">
+            <input type="hidden" name="subject" value="QUICK CHAT REQUEST">
+            <div class="field-row">
+                <input id="contact-name" type="text" name="name" title="Name" placeholder="Name">
+            </div>
+            <div class="field-row">
+                <input id="contact-email-toggle" class="contact-toggle-radio" type="radio" name="response_type" value="email" checked>
+                <label for="contact-email-toggle" class="contact-toggle-label">Email</label>
+                <input id="contact-phone-toggle" class="contact-toggle-radio" type="radio" name="response_type" value="phone">
+                <label for="contact-phone-toggle" class="contact-toggle-label">Call</label>
+                <input id="contact-email" class="contact-toggle-field active" type="email" name="email" title="Email address" placeholder="Email">
+                <input id="contact-phone" class="contact-toggle-field" type="tel" name="phone" title="Phone number" placeholder="Phone">
+            </div>
+            <div class="field-row">
+                <textarea id="contact-message" name="message" title="Short description of your project" placeholder="Short description of your project"></textarea>
+            </div>
+            <div class="button-container">
+                <a href="/contact.html" class="submit button button-1">Send</a>
+            </div>
+        </form>
+    </div>
+
+<div id="spinner" class="spinner"></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/portfolio-2017.js"></script>
+
+</div></body>
+</html>
