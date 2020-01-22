@@ -867,34 +867,43 @@ textarea {
 }
 
 .contact-cols .col {
-	width: 40%;
+	width: 47.5%;
+	margin: 0 0 5% 5%;
 	float: left;
-}
-
-.contact-cols .col:last-child {
-	width: 10%;
 }
 
 .contact-cols .col + .col {
 	margin-left: 5%;
 }
 
+.contact-cols .col:nth-child(2n+1) {
+	margin-left: 0;
+}
+
 .contact-cols h3 {
 	margin: 0;
 }
 
-#linked-in-logo svg {
-	max-width: 30px;
-	margin-top: 18px;
-	float: right;
+.social-icon {
+	margin-left: 10px;
 }
 
-#linked-in-logo svg path {
+.social-icon svg {
+	max-width: 30px;
+	margin-top: 18px;
+}
+
+.social-icon svg path {
+	fill: #a4acbb;
 	transition: fill 200ms linear;
 }
 
-#linked-in-logo:hover svg path {
+.linkedin-icon:hover svg path {
 	fill: #007bb6;
+}
+
+.github-icon:hover svg path {
+	fill: #000;
 }
 
 
@@ -1094,7 +1103,7 @@ textarea {
 	    margin-left: 0;
 	}
 
-	#linked-in-logo svg {
+	.social-icon svg {
 	    float: none;
 	}
 
