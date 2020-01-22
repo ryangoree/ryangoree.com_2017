@@ -898,12 +898,12 @@ textarea {
 	transition: fill 200ms linear;
 }
 
-.linkedin-icon:hover svg path {
-	fill: #007bb6;
+.social-icon:hover svg path {
+	fill: #000;
 }
 
-.github-icon:hover svg path {
-	fill: #000;
+.linkedin-icon:hover svg path {
+	fill: #007bb6;
 }
 
 
