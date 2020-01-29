@@ -906,6 +906,10 @@ textarea {
 	fill: #007bb6;
 }
 
+.dribble-icon:hover svg path {
+	fill: #C32361;
+}
+
 
 /*~*~*~*~*~*~*~*~*~*~*~*
 ~*~*~ SECURE LOGIN ~*~*~
